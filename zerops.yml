@@ -4,7 +4,7 @@ zerops:
       base: alpine/nodejs@24
 
       buildCommands:
-        - npm ci # 如果没有 package-lock.json，可以改成 npm install
+        - npm install # 如果没有 package-lock.json，可以改成 npm install
 
       deployFiles:
         - ./
